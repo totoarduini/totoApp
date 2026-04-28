@@ -249,12 +249,12 @@
     <button class="l1-btn" data-color="green" data-l1="Agricultura" onclick="selectL1(this)">
       <span class="l1-icon">🌾</span>
       <span class="l1-label">Agricultura</span>
-      <span class="l1-count">8 herramientas</span>
+      <span class="l1-count">9 herramientas</span>
     </button>
     <button class="l1-btn" data-color="amber" data-l1="Ganaderia" onclick="selectL1(this)">
       <span class="l1-icon">🐄</span>
       <span class="l1-label">Ganadería</span>
-      <span class="l1-count">1 herramienta</span>
+      <span class="l1-count">3 herramientas</span>
     </button>
   </div>
 
@@ -271,7 +271,7 @@
 
   <footer>
     <span class="footer-text">SOS Agro — Trenque Lauquen, Buenos Aires</span>
-    <span class="footer-total">9 herramientas en total</span>
+    <span class="footer-total">12 herramientas en total</span>
   </footer>
 
 </div>
@@ -288,8 +288,9 @@ const DATA = {
         { name: "Pulverización terrestre vs aérea", url: "https://totoarduini.github.io/pulvT-vs-pulvA/" },
       ]},
       "Técnicos": { apps: [
-        { name: "Equivalencia Herbicidas", url: "https://totoarduini.github.io/Equivalencia-Herbicidas/" },
-        { name: "Extracción Nutrientes",   url: "https://totoarduini.github.io/Extraccion-de-Nutrientes/" },
+        { name: "Equivalencia Herbicidas",              url: "https://totoarduini.github.io/Equivalencia-Herbicidas/" },
+        { name: "Extracción Nutrientes",                url: "https://totoarduini.github.io/Extraccion-de-Nutrientes/" },
+        { name: "Fertilización con N en Trigo y Maíz", url: "https://totoarduini.github.io/Fertilizacion-N-Trigo-y-Maiz/" },
       ]},
       "Resumen ensayos": { apps: [
         { name: "Respuesta a P y S en Maíz", url: "https://totoarduini.github.io/Fertilizacion-PyS-en-Maiz/" },
@@ -299,8 +300,12 @@ const DATA = {
   Ganaderia: {
     color: "#C17F2A",
     subcats: {
-      "Feedlot": { apps: [
+      "Técnicos": { apps: [
         { name: "Presupuesto Alimentos Feedlot", url: "https://totoarduini.github.io/Presupuesto-Alimentos-Feedlot/" },
+      ]},
+      "Económico": { apps: [
+        { name: "MB Cría en campo agrícola", url: "https://totoarduini.github.io/MB-Cria-en-Campo-Agricola/" },
+        { name: "MB Feedlot",               url: "https://totoarduini.github.io/MB-Feedlot/" },
       ]},
     }
   }
